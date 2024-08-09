@@ -8,10 +8,10 @@ import RealTimeUpdates from '../Components/RealTimeUpdates';
 
 const Home = () => {
 
-  const location = useLocation()
+  // const location = useLocation()
   return (
     <>
-    <h1>Hello {location.state.id} and Welcome to the home</h1>
+    {/* <h1>Hello {location.state.id} and Welcome to the home</h1> */}
     <Header />
       <div className="pg-1 m-10 flex justify-center mt-16  ">
         <div className="p1">
@@ -40,6 +40,7 @@ const Home = () => {
             </p>
           </div>
         </section>
+        <RealTimeUpdates />
       <Footer />
     </>
   );

@@ -104,3 +104,11 @@ video{
   .go-button:hover {
     background-color: #357bd8;
   }
+
+  .cont{
+    font-size: 4vw;
+  }
+
+  .cnt{
+    font-size: 2vw;
+  }
